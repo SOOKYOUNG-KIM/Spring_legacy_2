@@ -9,7 +9,7 @@ public class SubController {
 	
 	@RequestMapping(value = "sub1")
 	public void sub1() {
-		
+		//URI 주소와 리턴되는 값(view의 경로명)이 같은경우 void로 해도 됨.
 	}
 	
 	@RequestMapping(value = "sub2")

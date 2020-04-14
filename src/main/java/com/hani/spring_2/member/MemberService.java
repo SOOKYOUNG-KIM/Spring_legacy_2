@@ -3,9 +3,10 @@ package com.hani.spring_2.member;
 public class MemberService {
 	
 	private MemberDAO memberDAO;
+
 	
-	public MemberService(){
-		this.memberDAO = new MemberDAO();
+	public MemberService(MemberDAO memberDAO){
+		this.memberDAO = memberDAO;
 	}
 	
 	//1. Insert()

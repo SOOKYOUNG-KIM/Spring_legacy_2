@@ -9,8 +9,10 @@
 	<c:import url="../template/boot.jsp"></c:import>
 </head>
 <body>
+
 <c:import url="../template/header.jsp"></c:import>
 
+<div class="container">
 	<h2>Login form</h2>
   <form class="form-horizontal" action="./memberLogin" method="post">
     <div class="form-group">
@@ -39,7 +41,7 @@
     </div>
   </form>
 
-
+</div>
 
 </body>
 </html>
